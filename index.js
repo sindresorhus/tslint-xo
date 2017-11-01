@@ -1,7 +1,8 @@
 'use strict';
 const path = require('path');
 
-// TODO: Open an issue on TSLint about a better way to get rules from node modules
+// TODO: TSLint should improve this:
+// https://github.com/palantir/tslint/issues/3436
 const getRuleDirectory = (name, directory) =>
 	path.join(path.dirname(require.resolve(name)), directory || '');
 
