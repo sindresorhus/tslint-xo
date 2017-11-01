@@ -20,10 +20,17 @@ Add the following to your [TSLint config](https://palantir.github.io/tslint/usag
 }
 ```
 
+Or this if you want 2-space indentation instead of tabs:
+
+```json
+{
+	"extends": "tslint-xo/space"
+}
+```
+
 
 ## Related
 
-- [tslint-xo-space](https://github.com/sindresorhus/tslint-xo-space) - TSLint shareable config for XO with 2-space indent
 - [xo](https://github.com/sindresorhus/xo) - JavaScript linter
 
 
