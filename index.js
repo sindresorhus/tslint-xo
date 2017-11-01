@@ -3,7 +3,8 @@ const path = require('path');
 
 module.exports = {
 	rulesDirectory: [
-		path.join(path.dirname(require.resolve('tslint-eslint-rules')), 'dist/rules')
+		path.join(path.dirname(require.resolve('tslint-eslint-rules')), 'dist/rules'),
+		path.join(path.dirname(require.resolve('tslint-consistent-codestyle')), '.')
 	],
 	rules: {
 		'adjacent-overload-signatures': true,
@@ -148,6 +149,23 @@ module.exports = {
 		'ter-arrow-spacing': [true, {
 			before: true,
 			after: true
-		}]
+		}],
+
+		// `tslint-consistent-codestyle`
+		'early-exit': true,
+		'no-collapsible-if': true,
+		'no-else-after-return': true,
+		'no-return-undefined': true,
+		'no-static-this': true,
+		'no-unnecessary-else': true,
+		'no-unused': [
+			true,
+			'unused-function-expression-name',
+			'unused-class-expression-name',
+			'unused-catch-binding'
+		],
+		'no-var-before-return': true,
+		'prefer-const-enum': true,
+		'prefer-while': true
 	}
 };
