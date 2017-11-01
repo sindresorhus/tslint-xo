@@ -79,7 +79,6 @@ module.exports = {
 		'callable-types': true,
 		'class-name': true,
 		'comment-format': [true, 'check-space', 'check-uppercase'],
-		'completed-docs': [true, 'methods'],
 		encoding: true,
 		'import-spacing': true,
 		'interface-over-type-literal': true,
