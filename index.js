@@ -1,14 +1,15 @@
 'use strict';
 const path = require('path');
 
+// TODO: Open an issue on TSLint about a better way to get rules from node modules
 const getRuleDirectory = (name, directory) =>
 	path.join(path.dirname(require.resolve(name)), directory || '');
-
 
 module.exports = {
 	rulesDirectory: [
 		getRuleDirectory('tslint-eslint-rules', 'dist/rules'),
-		getRuleDirectory('tslint-consistent-codestyle')
+		getRuleDirectory('tslint-consistent-codestyle'),
+		getRuleDirectory('tslint-microsoft-contrib')
 	],
 	rules: {
 		'adjacent-overload-signatures': true,
@@ -170,6 +171,46 @@ module.exports = {
 		],
 		'no-var-before-return': true,
 		'prefer-const-enum': true,
-		'prefer-while': true
+		'prefer-while': true,
+
+		// `tslint-microsoft-contrib`
+		'import-name': [true, {
+			ava: 'test',
+			lodash: '_'
+		}],
+		'no-banned-terms': true,
+		'no-delete-expression': true,
+		'no-document-domain': true,
+		'no-document-write': true,
+		'no-empty-line-after-opening-brace': true,
+		'no-for-in': true,
+		'no-function-constructor-with-string-args': true,
+		'no-function-expression': true,
+		'no-http-string': true,
+		'no-inner-html': true,
+		'no-jquery-raw-elements': true,
+		'no-octal-literal': true,
+		'no-single-line-block-comment': true,
+		'no-stateless-class': true,
+		'no-string-based-set-immediate': true,
+		'no-string-based-set-interval': true,
+		'no-string-based-set-timeout': true,
+		'no-typeof-undefined': true,
+		'no-unnecessary-bind': true,
+		'no-unnecessary-field-initialization': true,
+		'no-unnecessary-override': true,
+		'no-unnecessary-semicolons': true,
+		'no-useless-files': true,
+		'no-with-statement': true,
+		'prefer-array-literal': true,
+		'promise-must-complete': true,
+		'react-anchor-blank-noopener': true,
+		'react-iframe-missing-sandbox': true,
+		'react-no-dangerous-html': true,
+		'react-this-binding-issue': true,
+		'react-tsx-curly-spacing': [true, 'never'],
+		'react-unused-props-and-state': true,
+		'underscore-consistent-invocation': true,
+		'use-named-parameter': true
 	}
 };
