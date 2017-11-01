@@ -1,6 +1,10 @@
 'use strict';
+const path = require('path');
 
 module.exports = {
+	rulesDirectory: [
+		path.join(path.dirname(require.resolve('tslint-eslint-rules')), 'dist/rules')
+	],
 	rules: {
 		'adjacent-overload-signatures': true,
 		'ban-comma-operator': true,
@@ -110,13 +114,40 @@ module.exports = {
 			'check-branch',
 			'check-decl',
 			'check-operator',
-			'check-module',
+			// Disabled because of `object-curly-spacing`
+			// 'check-module',
 			'check-separator',
 			'check-rest-spread',
 			'check-type',
 			'check-typecast',
 			'check-type-operator',
 			'check-preblock'
-		]
+		],
+
+		// `tslint-eslint-rules`
+		'no-constant-condition': true,
+		'no-control-regex': true,
+		'no-duplicate-case': true,
+		'no-empty-character-class': true,
+		'no-ex-assign': true,
+		'no-extra-boolean-cast': true,
+		'no-extra-semi': true,
+		'no-inner-declarations': true,
+		'no-invalid-regexp': true,
+		'no-regex-spaces': true,
+		'no-unexpected-multiline': true,
+		'no-multi-spaces': true,
+		'array-bracket-spacing': [true, 'never'],
+		'brace-style': [true, '1tbs', {
+			allowSingleLine: false
+		}],
+		// TODO: Not released yet: 'ter-computed-property-spacing': [true, 'never'],
+		'ter-func-call-spacing': [true, 'never'],
+		'object-curly-spacing': [true, 'never'],
+		'space-in-parens': [true, 'never'],
+		'ter-arrow-spacing': [true, {
+			before: true,
+			after: true
+		}]
 	}
 };
