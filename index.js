@@ -1,10 +1,14 @@
 'use strict';
 const path = require('path');
 
+const getRuleDirectory = (name, directory) =>
+	path.join(path.dirname(require.resolve(name)), directory || '');
+
+
 module.exports = {
 	rulesDirectory: [
-		path.join(path.dirname(require.resolve('tslint-eslint-rules')), 'dist/rules'),
-		path.join(path.dirname(require.resolve('tslint-consistent-codestyle')), '.')
+		getRuleDirectory('tslint-eslint-rules', 'dist/rules'),
+		getRuleDirectory('tslint-consistent-codestyle')
 	],
 	rules: {
 		'adjacent-overload-signatures': true,
