@@ -1,4 +1,4 @@
-# tslint-xo [![Build Status](https://travis-ci.org/sindresorhus/tslint-xo.svg?branch=master)](https://travis-ci.org/sindresorhus/tslint-xo)
+# tslint-xo [![Build Status](https://travis-ci.org/sindresorhus/tslint-xo.svg?branch=master)](https://travis-ci.org/sindresorhus/tslint-xo) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](sindresorhus/xo)
 
 > [TSLint](https://palantir.github.io/tslint/) shareable config for [XO](https://github.com/sindresorhus/xo)
 
