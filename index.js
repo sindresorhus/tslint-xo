@@ -174,10 +174,11 @@ module.exports = {
 		'prefer-while': true,
 
 		// `tslint-microsoft-contrib`
-		'import-name': [true, {
-			ava: 'test',
-			lodash: '_'
-		}],
+		// Disabled because of https://github.com/Microsoft/tslint-microsoft-contrib/issues/378
+		// 'import-name': [true, {
+		// 	ava: 'test',
+		// 	lodash: '_'
+		// }],
 		'no-banned-terms': true,
 		'no-delete-expression': true,
 		'no-document-domain': true,
