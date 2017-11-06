@@ -68,7 +68,6 @@ module.exports = {
 		deprecation: true,
 		eofline: true,
 		indent: [true, 'tabs'],
-		'no-default-export': true,
 		'no-duplicate-imports': true,
 		'no-require-imports': true,
 		'prefer-const': true,
