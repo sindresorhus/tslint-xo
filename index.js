@@ -105,9 +105,11 @@ module.exports = {
 		'space-before-function-paren': [
 			true,
 			{
-				anonymous: 'never',
+				anonymous: 'always',
 				named: 'never',
-				asyncArrow: 'always'
+				asyncArrow: 'always',
+				method: 'never',
+				constructor: 'never'
 			}
 		],
 		'space-within-parens': [true, 0],
@@ -185,7 +187,8 @@ module.exports = {
 		'no-empty-line-after-opening-brace': true,
 		'no-for-in': true,
 		'no-function-constructor-with-string-args': true,
-		'no-function-expression': true,
+		// We're using `only-arrow-functions` instead
+		// 'no-function-expression': true,
 		'no-http-string': true,
 		'no-inner-html': true,
 		'no-jquery-raw-elements': true,
