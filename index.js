@@ -164,6 +164,7 @@ module.exports = {
 		'no-return-undefined': true,
 		'no-static-this': true,
 		'no-unnecessary-else': true,
+		'no-unnecessary-type-annotation': [true, 'check-return-type'],
 		'no-unused': [
 			true,
 			'unused-function-expression-name',
