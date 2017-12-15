@@ -1,64 +1,64 @@
 {
-  "name": "tslint-xo",
-  "version": "0.3.0",
-  "description": "TSLint shareable config for XO",
-  "license": "MIT",
-  "repository": "sindresorhus/tslint-xo",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "index.js",
-    "space.js"
-  ],
-  "keywords": [
-    "tslint",
-    "tslint-config",
-    "config",
-    "xo",
-    "typescript",
-    "ts",
-    "code",
-    "quality",
-    "style",
-    "css",
-    "lint",
-    "linter",
-    "jscs",
-    "jshint",
-    "jslint",
-    "eslint",
-    "validate",
-    "code style",
-    "standard",
-    "strict",
-    "check",
-    "checker",
-    "verify",
-    "enforce",
-    "hint",
-    "simple"
-  ],
-  "dependencies": {
-    "tslint-consistent-codestyle": "^1.8.0",
-    "tslint-eslint-rules": "^4.1.1",
-    "tslint-microsoft-contrib": "^5.0.1"
-  },
-  "devDependencies": {
-    "ava": "*",
-    "tslint": "^5.8.0",
-    "typescript": "^2.6.1",
-    "xo": "*"
-  },
-  "peerDependencies": {
-    "tslint": ">=5.8.0"
-  }
+	"name": "tslint-xo",
+	"version": "0.3.0",
+	"description": "TSLint shareable config for XO",
+	"license": "MIT",
+	"repository": "sindresorhus/tslint-xo",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js",
+		"space.js"
+	],
+	"keywords": [
+		"tslint",
+		"tslint-config",
+		"config",
+		"xo",
+		"typescript",
+		"ts",
+		"code",
+		"quality",
+		"style",
+		"css",
+		"lint",
+		"linter",
+		"jscs",
+		"jshint",
+		"jslint",
+		"eslint",
+		"validate",
+		"code style",
+		"standard",
+		"strict",
+		"check",
+		"checker",
+		"verify",
+		"enforce",
+		"hint",
+		"simple"
+	],
+	"dependencies": {
+		"tslint-consistent-codestyle": "^1.8.0",
+		"tslint-eslint-rules": "^4.1.1",
+		"tslint-microsoft-contrib": "^5.0.1"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"tslint": "^5.8.0",
+		"typescript": "^2.6.1",
+		"xo": "*"
+	},
+	"peerDependencies": {
+		"tslint": ">=5.8.0"
+	}
 }
