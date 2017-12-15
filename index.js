@@ -159,6 +159,7 @@ module.exports = {
 
 		// `tslint-consistent-codestyle`
 		'early-exit': true,
+		'no-accessor-recursion': true,
 		'no-collapsible-if': true,
 		'no-else-after-return': true,
 		'no-return-undefined': true,
