@@ -54,11 +54,11 @@
 	},
 	"devDependencies": {
 		"ava": "*",
-		"tslint": "^5.8.0",
+		"tslint": "^5.9.1",
 		"typescript": "^2.6.1",
 		"xo": "*"
 	},
 	"peerDependencies": {
-		"tslint": ">=5.8.0"
+		"tslint": ">=5.9.0"
 	}
 }
