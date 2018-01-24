@@ -10,14 +10,13 @@
     "url": "https://okjike.com"
   },
   "engines": {
-    "node": ">=8"
+    "node": ">=4"
   },
   "scripts": {
     "test": "xo && ava"
   },
   "files": [
-    "index.js",
-    "space.js"
+    "index.js"
   ],
   "keywords": [
     "tslint",
