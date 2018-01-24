@@ -1,1 +1,1 @@
-export interface Unicorn {}
+export interface Unicorn { }
