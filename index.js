@@ -198,7 +198,6 @@ module.exports = {
 		'no-jquery-raw-elements': true,
 		'no-octal-literal': true,
 		'no-single-line-block-comment': true,
-		'no-stateless-class': true,
 		'no-string-based-set-immediate': true,
 		'no-string-based-set-interval': true,
 		'no-string-based-set-timeout': true,
