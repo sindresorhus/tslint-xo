@@ -202,7 +202,6 @@ module.exports = {
 		'no-string-based-set-timeout': true,
 		'no-typeof-undefined': true,
 		'no-unnecessary-bind': true,
-		'no-unnecessary-field-initialization': true,
 		'no-unnecessary-override': true,
 		'no-unnecessary-semicolons': true,
 		'no-useless-files': true,
