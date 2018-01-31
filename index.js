@@ -136,7 +136,6 @@ module.exports = {
 		// `tslint-eslint-rules`
 		'no-constant-condition': true,
 		'no-control-regex': true,
-		'no-duplicate-case': true,
 		'no-empty-character-class': true,
 		'no-ex-assign': true,
 		'no-extra-boolean-cast': true,
