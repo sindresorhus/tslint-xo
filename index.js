@@ -210,7 +210,6 @@ module.exports = {
 		'react-iframe-missing-sandbox': true,
 		'react-no-dangerous-html': true,
 		'react-this-binding-issue': true,
-		'react-tsx-curly-spacing': [true, 'never'],
 		'react-unused-props-and-state': true,
 		'underscore-consistent-invocation': true,
 		'use-named-parameter': true
