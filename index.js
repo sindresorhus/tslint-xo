@@ -206,7 +206,6 @@ module.exports = {
 		'no-unnecessary-semicolons': true,
 		'no-useless-files': true,
 		'no-with-statement': true,
-		'prefer-array-literal': true,
 		'promise-must-complete': true,
 		'react-anchor-blank-noopener': true,
 		'react-iframe-missing-sandbox': true,
