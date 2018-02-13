@@ -3,7 +3,7 @@
 	"version": "0.6.0",
 	"description": "TSLint shareable config for XO",
 	"license": "MIT",
-	"repository": "sindresorhus/tslint-xo",
+	"repository": "xojs/tslint-xo",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
