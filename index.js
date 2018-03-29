@@ -24,7 +24,7 @@ module.exports = {
 		'no-reference': true,
 		'no-unnecessary-type-assertion': true,
 		'no-var-requires': true,
-		'only-arrow-functions': true,
+		'only-arrow-functions': [true, "allow-named-functions"],
 		'prefer-for-of': true,
 		'promise-function-async': true,
 		'await-promise': true,
