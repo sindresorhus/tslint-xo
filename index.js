@@ -1,16 +1,10 @@
 'use strict';
-const path = require('path');
-
-// TODO: TSLint should improve this:
-// https://github.com/palantir/tslint/issues/3436
-const getRuleDirectory = (name, directory) =>
-	path.join(path.dirname(require.resolve(name)), directory || '');
 
 module.exports = {
 	rulesDirectory: [
-		getRuleDirectory('tslint-eslint-rules', 'dist/rules'),
-		getRuleDirectory('tslint-consistent-codestyle'),
-		getRuleDirectory('tslint-microsoft-contrib')
+		'tslint-eslint-rules/dist/rules',
+		'tslint-consistent-codestyle',
+		'tslint-microsoft-contrib/dist/src'
 	],
 	rules: {
 		'adjacent-overload-signatures': true,
