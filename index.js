@@ -85,6 +85,7 @@ module.exports = {
 		'import-spacing': true,
 		'interface-over-type-literal': true,
 		'jsdoc-format': [true, 'check-multiline-start'],
+		'newline-before-return': false,
 		'new-parens': true,
 		'no-angle-bracket-type-assertion': true,
 		'no-boolean-literal-compare': false,
