@@ -146,6 +146,7 @@ module.exports = {
 		'no-regex-spaces': true,
 		'no-unexpected-multiline': true,
 		'no-multi-spaces': true,
+		'ter-no-proto': true,
 		'array-bracket-spacing': [true, 'never'],
 		'brace-style': [true, '1tbs', {
 			allowSingleLine: false
