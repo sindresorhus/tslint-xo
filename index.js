@@ -148,6 +148,7 @@ module.exports = {
 		'no-multi-spaces': true,
 		'ter-no-proto': true,
 		'ter-no-script-url': true,
+		'ter-no-self-compare': true,
 		'array-bracket-spacing': [true, 'never'],
 		'brace-style': [true, '1tbs', {
 			allowSingleLine: false
