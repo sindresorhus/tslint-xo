@@ -1,6 +1,6 @@
 {
 	"name": "tslint-xo",
-	"version": "0.7.2",
+	"version": "0.8.0",
 	"description": "TSLint shareable config for XO",
 	"license": "MIT",
 	"repository": "xojs/tslint-xo",
