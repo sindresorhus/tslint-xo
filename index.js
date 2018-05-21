@@ -102,6 +102,7 @@ module.exports = {
 		'one-variable-per-declaration': true,
 		'prefer-method-signature': true,
 		'prefer-template': [true, 'allow-single-concat'],
+		'prefer-while': true,
 		quotemark: [true, 'single', 'avoid-template'],
 		semicolon: [true, 'always', 'strict-bound-class-methods'],
 		'space-before-function-paren': [
@@ -177,7 +178,6 @@ module.exports = {
 		],
 		'no-var-before-return': true,
 		'prefer-const-enum': true,
-		'prefer-while': true,
 
 		// `tslint-microsoft-contrib`
 		// Disabled because of https://github.com/Microsoft/tslint-microsoft-contrib/issues/378
