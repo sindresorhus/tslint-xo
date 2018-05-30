@@ -17,6 +17,7 @@ module.exports = {
 		'ban-comma-operator': true,
 		'no-empty-interface': true,
 		'no-import-side-effect': true,
+		'no-inferrable-types': true,
 		'no-internal-module': true,
 		'no-namespace': true,
 		'no-non-null-assertion': true,
