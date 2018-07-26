@@ -56,7 +56,9 @@ module.exports = {
 		'no-unnecessary-class': true,
 		'no-unsafe-finally': true,
 		'no-unused-expression': true,
-		'no-unused-variable': true,
+		// This one is deprecated, but we keep it in case it gets undeprecated again:
+		// https://github.com/palantir/tslint/pull/3919
+		// 'no-unused-variable': true,
 		'no-use-before-declare': true,
 		'no-var-keyword': true,
 		'prefer-object-spread': true,
