@@ -85,6 +85,7 @@ module.exports = {
 		'class-name': true,
 		'comment-format': [true, 'check-space', 'check-uppercase'],
 		encoding: true,
+		'file-name-casing': [true, 'kebab-case'],
 		'import-spacing': true,
 		'interface-over-type-literal': true,
 		'jsdoc-format': [true, 'check-multiline-start'],
