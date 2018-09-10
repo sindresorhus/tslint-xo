@@ -14,6 +14,12 @@ module.exports = {
 	],
 	rules: {
 		'adjacent-overload-signatures': true,
+		'member-ordering': [
+			true,
+			{
+				order: 'fields-first'
+			}
+		],
 		'ban-comma-operator': true,
 		'no-empty-interface': true,
 		'no-import-side-effect': true,
