@@ -166,8 +166,7 @@ module.exports = {
 		'ter-computed-property-spacing': [true, 'never'],
 		'ter-func-call-spacing': [true, 'never'],
 		'object-curly-spacing': [true, 'never'],
-		// Disabled because of error when running it on `ow`
-		// 'ter-padded-blocks': [true, 'never'],
+		'ter-padded-blocks': [true, 'never'],
 		'space-in-parens': [true, 'never'],
 		'ter-arrow-spacing': [true, {
 			before: true,
@@ -175,7 +174,12 @@ module.exports = {
 		}],
 
 		// `tslint-consistent-codestyle`
-		'early-exit': true,
+		'early-exit': [
+			true,
+			{
+				'ignore-constructor': true
+			}
+		],
 		'no-accessor-recursion': true,
 		'no-collapsible-if': true,
 		'no-else-after-return': true,
