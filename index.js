@@ -31,7 +31,10 @@ module.exports = {
 		'no-reference': true,
 		'no-unnecessary-type-assertion': true,
 		'no-var-requires': true,
-		'only-arrow-functions': [true, 'allow-named-functions'],
+		'only-arrow-functions': [
+			true,
+			'allow-named-functions'
+		],
 		'prefer-for-of': true,
 		'promise-function-async': true,
 		'await-promise': true,
@@ -48,7 +51,11 @@ module.exports = {
 		'no-eval': true,
 		'no-floating-promises': true,
 		'no-for-in-array': true,
-		'no-implicit-dependencies': [true, 'dev', 'optional'],
+		'no-implicit-dependencies': [
+			true,
+			'dev',
+			'optional'
+		],
 		'no-invalid-template-strings': true,
 		'no-invalid-this': false,
 		'no-misused-new': true,
@@ -77,24 +84,48 @@ module.exports = {
 		'use-isnan': true,
 		deprecation: true,
 		eofline: true,
-		indent: [true, 'tabs'],
+		indent: [
+			true,
+			'tabs'
+		],
 		'no-duplicate-imports': true,
 		'no-require-imports': true,
 		'prefer-const': true,
 		'prefer-readonly': true,
-		'trailing-comma': [false, {esSpecCompliant: true}],
-		'array-type': [true, 'array'],
-		'arrow-parens': [true, 'ban-single-arg-parens'],
+		'trailing-comma': [
+			false,
+			{
+				esSpecCompliant: true
+			}
+		],
+		'array-type': [
+			true,
+			'array'
+		],
+		'arrow-parens': [
+			true,
+			'ban-single-arg-parens'
+		],
 		'arrow-return-shorthand': true,
 		'binary-expression-operand-order': true,
 		'callable-types': true,
 		'class-name': true,
-		'comment-format': [true, 'check-space', 'check-uppercase'],
+		'comment-format': [
+			true,
+			'check-space',
+			'check-uppercase'
+		],
 		encoding: true,
-		'file-name-casing': [true, 'kebab-case'],
+		'file-name-casing': [
+			true,
+			'kebab-case'
+		],
 		'import-spacing': true,
 		'interface-over-type-literal': true,
-		'jsdoc-format': [true, 'check-multiline-start'],
+		'jsdoc-format': [
+			true,
+			'check-multiline-start'
+		],
 		'newline-before-return': false,
 		'new-parens': true,
 		'no-angle-bracket-type-assertion': true,
@@ -107,14 +138,28 @@ module.exports = {
 		'no-unnecessary-initializer': true,
 		'no-unnecessary-qualifier': true,
 		'number-literal-format': true,
-		'object-literal-key-quotes': [true, 'as-needed'],
+		'object-literal-key-quotes': [
+			true,
+			'as-needed'
+		],
 		'object-literal-shorthand': true,
 		'one-variable-per-declaration': true,
 		'prefer-method-signature': true,
-		'prefer-template': [true, 'allow-single-concat'],
+		'prefer-template': [
+			true,
+			'allow-single-concat'
+		],
 		'prefer-while': true,
-		quotemark: [true, 'single', 'avoid-template'],
-		semicolon: [true, 'always', 'strict-bound-class-methods'],
+		quotemark: [
+			true,
+			'single',
+			'avoid-template'
+		],
+		semicolon: [
+			true,
+			'always',
+			'strict-bound-class-methods'
+		],
 		'space-before-function-paren': [
 			true,
 			{
@@ -125,10 +170,17 @@ module.exports = {
 				constructor: 'never'
 			}
 		],
-		'space-within-parens': [true, 0],
+		'space-within-parens': [
+			true,
+			0
+		],
 		'switch-final-break': true,
 		'type-literal-delimiter': true,
-		'variable-name': [true, 'check-format', 'ban-keywords'],
+		'variable-name': [
+			true,
+			'check-format',
+			'ban-keywords'
+		],
 		whitespace: [
 			true,
 			'check-branch',
@@ -159,19 +211,44 @@ module.exports = {
 		'ter-no-proto': true,
 		'ter-no-script-url': true,
 		'ter-no-self-compare': true,
-		'array-bracket-spacing': [true, 'never'],
-		'brace-style': [true, '1tbs', {
-			allowSingleLine: false
-		}],
-		'ter-computed-property-spacing': [true, 'never'],
-		'ter-func-call-spacing': [true, 'never'],
-		'object-curly-spacing': [true, 'never'],
-		'ter-padded-blocks': [true, 'never'],
-		'space-in-parens': [true, 'never'],
-		'ter-arrow-spacing': [true, {
-			before: true,
-			after: true
-		}],
+		'array-bracket-spacing': [
+			true,
+			'never'
+		],
+		'brace-style': [
+			true,
+			'1tbs',
+			{
+				allowSingleLine: false
+			}
+		],
+		'ter-computed-property-spacing': [
+			true,
+			'never'
+		],
+		'ter-func-call-spacing': [
+			true,
+			'never'
+		],
+		'object-curly-spacing': [
+			true,
+			'never'
+		],
+		'ter-padded-blocks': [
+			true,
+			'never'
+		],
+		'space-in-parens': [
+			true,
+			'never'
+		],
+		'ter-arrow-spacing': [
+			true,
+			{
+				before: true,
+				after: true
+			}
+		],
 
 		// `tslint-consistent-codestyle`
 		'early-exit': [
@@ -186,7 +263,10 @@ module.exports = {
 		'no-return-undefined': true,
 		'no-static-this': true,
 		'no-unnecessary-else': true,
-		'no-unnecessary-type-annotation': [true, 'check-return-type'],
+		'no-unnecessary-type-annotation': [
+			true,
+			'check-return-type'
+		],
 		'no-unused': [
 			true,
 			'unused-function-expression-name',
