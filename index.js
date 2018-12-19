@@ -183,6 +183,7 @@ module.exports = {
 				singleLine: 'always'
 			}
 		],
+		'unnecessary-bind': true,
 		'variable-name': [
 			true,
 			'check-format',
