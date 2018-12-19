@@ -39,6 +39,7 @@ module.exports = {
 		'promise-function-async': true,
 		'await-promise': true,
 		curly: true,
+		'function-constructor': true,
 		'no-arg': true,
 		'no-conditional-assignment': true,
 		'no-construct': true,

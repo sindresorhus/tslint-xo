@@ -9,7 +9,7 @@ const runTSLint = filename => {
 	return linter.getResult();
 };
 
-test(t => {
+test('main', t => {
 	const result = runTSLint('fixture.ts');
-	t.true(result.failures.some(x => x.ruleName === 'no-empty-interface'));
+	t.true(result.failures.some(failure => failure.ruleName === 'no-empty-interface'));
 });
