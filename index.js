@@ -81,6 +81,7 @@ module.exports = {
 		'strict-type-predicates': true,
 		'switch-default': true,
 		'triple-equals': true,
+		'unnecessary-constructor': true,
 		'use-default-type-parameter': true,
 		'use-isnan': true,
 		deprecation: true,
