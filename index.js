@@ -175,7 +175,12 @@ module.exports = {
 			0
 		],
 		'switch-final-break': true,
-		'type-literal-delimiter': true,
+		'type-literal-delimiter': [
+			true,
+			{
+				singleLine: 'always'
+			}
+		],
 		'variable-name': [
 			true,
 			'check-format',
@@ -186,7 +191,7 @@ module.exports = {
 			'check-branch',
 			'check-decl',
 			'check-operator',
-			// Disabled because of `object-curly-spacing`
+			// Disabled because it conflicts with `object-curly-spacing`
 			// 'check-module',
 			'check-separator',
 			'check-rest-spread',
@@ -194,6 +199,8 @@ module.exports = {
 			'check-typecast',
 			'check-type-operator',
 			'check-preblock'
+			// Disabled because it conflicts with `object-curly-spacing`
+			// 'check-postbrace'
 		],
 
 		// `tslint-eslint-rules`
