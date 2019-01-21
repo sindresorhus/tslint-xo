@@ -51,6 +51,18 @@ module.exports = {
 		],
 		'prefer-for-of': true,
 		'promise-function-async': true,
+		'typedef': [
+			true,
+			'call-signature',
+			'arrow-call-signature',
+			'parameter',
+			'arrow-parameter',
+			'property-declaration',
+			'variable-declaration',
+			'member-variable-declaration',
+			'object-destructuring',
+			'array-destructuring'
+		],
 		'typedef-whitespace': [
 			true,
 			{
