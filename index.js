@@ -112,6 +112,7 @@ module.exports = {
 		// ],
 
 		'no-unnecessary-class': true,
+		'no-unsafe-any': true,
 		'no-unsafe-finally': true,
 		'no-unused-expression': true,
 		// This one is deprecated, but we keep it in case it gets undeprecated again:
