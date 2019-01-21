@@ -196,6 +196,7 @@ module.exports = {
 		'no-redundant-jsdoc': true,
 		'no-reference-import': true,
 		'no-trailing-whitespace': true,
+		'no-unnecessary-callback-wrapper': true,
 		'no-unnecessary-initializer': true,
 		'no-unnecessary-qualifier': true,
 		'number-literal-format': true,
