@@ -207,6 +207,12 @@ module.exports = {
 		'object-literal-shorthand': true,
 		'one-variable-per-declaration': true,
 		'prefer-method-signature': true,
+		'prefer-switch': [
+			true,
+			{
+				'min-cases': 3
+			}
+		],
 		'prefer-template': [
 			true,
 			'allow-single-concat'
