@@ -151,6 +151,14 @@ module.exports = {
 				esSpecCompliant: true
 			}
 		],
+		'align':[
+			true,
+			'arguments',
+			'elements',
+			'members',
+			'parameters',
+			'statements'
+		],
 		'array-type': [
 			true,
 			'array'
