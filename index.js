@@ -14,6 +14,10 @@ module.exports = {
 	],
 	rules: {
 		'adjacent-overload-signatures': true,
+		'member-access': [
+			true,
+			'no-public'
+		],
 		'member-ordering': [
 			true,
 			{
