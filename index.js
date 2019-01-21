@@ -58,6 +58,7 @@ module.exports = {
 				'variable-declaration': 'onespace'
 			}
 		],
+		'unified-signatures': true,
 		'await-promise': true,
 		curly: true,
 		'function-constructor': true,
