@@ -90,6 +90,7 @@ module.exports = {
 			'dev',
 			'optional'
 		],
+		'no-inferred-empty-object-type': true,
 		'no-invalid-template-strings': true,
 		'no-invalid-this': false,
 		'no-misused-new': true,
