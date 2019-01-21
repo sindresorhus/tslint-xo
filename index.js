@@ -41,6 +41,23 @@ module.exports = {
 		],
 		'prefer-for-of': true,
 		'promise-function-async': true,
+		'typedef-whitespace': [
+			true,
+			{
+				'call-signature': 'nospace',
+				'index-signature': 'nospace',
+				'parameter': 'nospace',
+				'property-declaration': 'nospace',
+				'variable-declaration': 'nospace'
+			},
+			{
+				'call-signature': 'onespace',
+				'index-signature': 'onespace',
+				'parameter': 'onespace',
+				'property-declaration': 'onespace',
+				'variable-declaration': 'onespace'
+			}
+		],
 		'await-promise': true,
 		curly: true,
 		'function-constructor': true,
