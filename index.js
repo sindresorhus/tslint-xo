@@ -103,6 +103,14 @@ module.exports = {
 		'no-string-throw': true,
 		'no-switch-case-fall-through': true,
 		'no-this-assignment': true,
+
+		// Disabled as it has a lot of false-positives and
+		// the 'ignore-static' option doesn't seem to work
+		// 'no-unbound-method': [
+		// 	true,
+		// 	'ignore-static'
+		// ],
+
 		'no-unnecessary-class': true,
 		'no-unsafe-finally': true,
 		'no-unused-expression': true,
