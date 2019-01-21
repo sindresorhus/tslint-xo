@@ -64,6 +64,7 @@ module.exports = {
 		'no-invalid-template-strings': true,
 		'no-invalid-this': false,
 		'no-misused-new': true,
+		'no-object-literal-type-assertion': true,
 		'no-return-await': true,
 		'no-shadowed-variable': true,
 		'no-sparse-arrays': true,
