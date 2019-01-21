@@ -137,6 +137,10 @@ module.exports = {
 			true,
 			'tabs'
 		],
+		'linebreak-style': [
+			true,
+			'LF'
+		],
 		'no-duplicate-imports': true,
 		'no-require-imports': true,
 		'prefer-const': true,
