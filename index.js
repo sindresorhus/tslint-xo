@@ -72,6 +72,7 @@ module.exports = {
 		'await-promise': true,
 		curly: true,
 		'function-constructor': true,
+		'label-position': true,
 		'no-arg': true,
 		'no-conditional-assignment': true,
 		'no-construct': true,
