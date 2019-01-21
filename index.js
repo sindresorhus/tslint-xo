@@ -14,6 +14,16 @@ module.exports = {
 	],
 	rules: {
 		'adjacent-overload-signatures': true,
+		'ban-types': [
+			true,
+			['String', 'Use `string` instead.'],
+			['Number', 'Use `number` instead.'],
+			['Boolean', 'Use `boolean` instead.'],
+			['Object', 'Use `object` instead.'],
+			['object', 'Use `{}` instead.'],
+			['any', 'Use `unknown` instead.'],
+			['Function', 'Use a specific function type instead, like `() => void`.']
+		],
 		'member-access': [
 			true,
 			'no-public'
