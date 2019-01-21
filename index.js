@@ -56,14 +56,14 @@ module.exports = {
 			{
 				'call-signature': 'nospace',
 				'index-signature': 'nospace',
-				'parameter': 'nospace',
+				parameter: 'nospace',
 				'property-declaration': 'nospace',
 				'variable-declaration': 'nospace'
 			},
 			{
 				'call-signature': 'onespace',
 				'index-signature': 'onespace',
-				'parameter': 'onespace',
+				parameter: 'onespace',
 				'property-declaration': 'onespace',
 				'variable-declaration': 'onespace'
 			}
@@ -151,7 +151,7 @@ module.exports = {
 				esSpecCompliant: true
 			}
 		],
-		'align':[
+		align: [
 			true,
 			'arguments',
 			'elements',
