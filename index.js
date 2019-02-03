@@ -19,6 +19,7 @@ module.exports = {
 			['String', 'Use `string` instead.'],
 			['Number', 'Use `number` instead.'],
 			['Boolean', 'Use `boolean` instead.'],
+			['Symbol', 'Use `symbol` instead.'],
 			['Object', 'Use `object` instead.'],
 			['object', 'Use `{}` instead.'],
 			['any', 'Use `unknown` instead.'],
