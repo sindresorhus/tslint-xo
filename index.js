@@ -257,7 +257,7 @@ module.exports = {
 		'type-literal-delimiter': [
 			true,
 			{
-				singleLine: 'always'
+				singleLine: 'never'
 			}
 		],
 		'unnecessary-bind': true,
