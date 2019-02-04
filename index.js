@@ -56,12 +56,8 @@ module.exports = {
 			true,
 			'call-signature',
 			'arrow-call-signature',
-			'parameter',
-			'arrow-parameter',
 			'property-declaration',
-			'member-variable-declaration',
-			'object-destructuring',
-			'array-destructuring'
+			'member-variable-declaration'
 		],
 		'typedef-whitespace': [
 			true,
