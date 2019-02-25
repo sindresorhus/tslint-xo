@@ -104,6 +104,12 @@ module.exports = {
 		'no-misused-new': true,
 		'no-null-keyword': true,
 		'no-object-literal-type-assertion': true,
+		'no-restricted-globals': [
+			true,
+			'name',
+			'length',
+			'event'
+		],
 		'no-return-await': true,
 		'no-shadowed-variable': true,
 		'no-sparse-arrays': true,
