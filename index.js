@@ -121,6 +121,7 @@ module.exports = {
 		'no-string-literal': true,
 		'no-string-throw': true,
 		'no-switch-case-fall-through': true,
+		'no-tautology-expression': true,
 		'no-this-assignment': true,
 
 		// Disabled as it has a lot of false-positives and
