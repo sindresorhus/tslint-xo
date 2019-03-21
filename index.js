@@ -271,6 +271,7 @@ module.exports = {
 			}
 		],
 		'unnecessary-bind': true,
+		'unnecessary-else': true,
 		'variable-name': [
 			true,
 			'check-format',
@@ -357,10 +358,8 @@ module.exports = {
 		],
 		'no-accessor-recursion': true,
 		'no-collapsible-if': true,
-		'no-else-after-return': true,
 		'no-return-undefined': true,
 		'no-static-this': true,
-		'no-unnecessary-else': true,
 		'no-unnecessary-type-annotation': [
 			true,
 			'check-return-type'
