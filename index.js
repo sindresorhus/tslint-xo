@@ -377,7 +377,6 @@ module.exports = {
 		'no-document-write': true,
 		'no-empty-line-after-opening-brace': true,
 		'no-for-in': true,
-		'no-function-constructor-with-string-args': true,
 		// We're using `only-arrow-functions` instead
 		// 'no-function-expression': true,
 		'no-http-string': true,
@@ -389,7 +388,6 @@ module.exports = {
 		'no-string-based-set-interval': true,
 		'no-string-based-set-timeout': true,
 		'no-typeof-undefined': true,
-		'no-unnecessary-bind': true,
 		'no-unnecessary-override': true,
 		'no-useless-files': true,
 		'no-with-statement': true,
