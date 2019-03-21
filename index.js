@@ -103,7 +103,12 @@ module.exports = {
 		'no-invalid-this': false,
 		'no-misused-new': true,
 		'no-null-keyword': true,
-		'no-object-literal-type-assertion': true,
+		'no-object-literal-type-assertion': [
+			true,
+			{
+				'allow-arguments': true
+			}
+		],
 		'no-restricted-globals': [
 			true,
 			'name',
@@ -122,7 +127,8 @@ module.exports = {
 		// the 'ignore-static' option doesn't seem to work
 		// 'no-unbound-method': [
 		// 	true,
-		// 	'ignore-static'
+		// 	'ignore-static',
+		// 	'allow-delete'
 		// ],
 
 		'no-unnecessary-class': true,
@@ -267,7 +273,9 @@ module.exports = {
 		'variable-name': [
 			true,
 			'check-format',
-			'ban-keywords'
+			'ban-keywords',
+			'allow-trailing-underscore',
+			'require-const-for-all-caps'
 		],
 		whitespace: [
 			true,
