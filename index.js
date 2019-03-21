@@ -146,6 +146,7 @@ module.exports = {
 		'prefer-object-spread': true,
 		radix: true,
 		'restrict-plus-operands': true,
+		'static-this': true,
 		'strict-type-predicates': true,
 		'switch-default': true,
 		'triple-equals': true,
@@ -359,7 +360,6 @@ module.exports = {
 		'no-accessor-recursion': true,
 		'no-collapsible-if': true,
 		'no-return-undefined': true,
-		'no-static-this': true,
 		'no-unnecessary-type-annotation': [
 			true,
 			'check-return-type'
