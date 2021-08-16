@@ -1,8 +1,10 @@
+Deprecated as [TSLint is deprecated](https://medium.com/palantir/tslint-in-2019-1a144c2317a9).
+
+---
+
 # tslint-xo
 
 > [TSLint](https://palantir.github.io/tslint/) shareable config for [XO](https://github.com/xojs/xo)
-
-Note that [TSLint is deprecated](https://medium.com/palantir/tslint-in-2019-1a144c2317a9).
 
 
 ## Install
